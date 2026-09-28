@@ -1,7 +1,16 @@
 {
-  "currentSerial": 10,
-  "totalGenerated": 9,
+  "currentSerial": 11,
+  "totalGenerated": 10,
   "history": [
+    {
+      "serialNumber": 10,
+      "title": "बिना इस्तेमाल वाले सब्सक्रिप्शन तुरंत कैंसल करें",
+      "generatedAt": "2026-09-28T11:23:26.843Z",
+      "youtubeId": "R8mv89zCU-0",
+      "youtubeUrl": "https://www.youtube.com/shorts/R8mv89zCU-0",
+      "uploadedAt": "2026-09-28T11:23:52.364Z",
+      "privacyStatus": "public"
+    },
     {
       "serialNumber": 9,
       "title": "हर छोटे खर्चे को ट्रैक करने की ताकत",
