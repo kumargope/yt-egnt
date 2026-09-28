@@ -1,26 +1,9 @@
 name: Daily Finance Short Auto-Publisher
 
-# Triggers every day at 6:00 PM IST (18:00 IST = 12:30 UTC)
-# Also supports manual trigger from GitHub Actions tab (Run workflow)
 on:
   schedule:
-    - cron: '30 12 * * *' # 12:30 UTC = 6:00 PM IST (Indian Standard Time)
-  workflow_dispatch:
-    inputs:
-      auto_upload:
-        description: 'Upload directly to YouTube'
-        required: true
-        type: boolean
-        default: true
-      privacy_status:
-        description: 'Video Privacy Status'
-        required: false
-        type: choice
-        options:
-          - public
-          - unlisted
-          - private
-        default: public
+    - cron: '30 12 * * *' # Every day at 6:00 PM IST (12:30 UTC)
+  workflow_dispatch: # Allows 1-click manual trigger from Actions tab
 
 permissions:
   contents: write
@@ -29,7 +12,7 @@ jobs:
   build-and-publish:
     name: Generate Video, SEO & Publish to YouTube
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
 
     steps:
       - name: Checkout Repository
@@ -50,15 +33,15 @@ jobs:
 
       - name: Install NPM Dependencies
         run: |
-          npm ci || npm install
+          npm install
 
       - name: Generate 30-Sec Finance Short & Upload to YouTube
         env:
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
-          YOUTUBE_PRIVACY_STATUS: ${{ github.event.inputs.privacy_status || secrets.YOUTUBE_PRIVACY_STATUS || 'public' }}
-          AUTO_UPLOAD: ${{ github.event.inputs.auto_upload != 'false' && 'true' || 'true' }}
+          YOUTUBE_PRIVACY_STATUS: 'public'
+          AUTO_UPLOAD: 'true'
         run: |
           node run-daily-short.js --upload
 
@@ -71,5 +54,5 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "Auto-increment serial tracker after daily YouTube upload [skip ci]"
-            git push origin HEAD:${{ github.ref_name }}
+            git push origin HEAD:master
           fi
