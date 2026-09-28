@@ -1,7 +1,16 @@
 {
-  "currentSerial": 11,
-  "totalGenerated": 10,
+  "currentSerial": 12,
+  "totalGenerated": 11,
   "history": [
+    {
+      "serialNumber": 11,
+      "title": "SIP में कम्पाउंडिंग: 5 हज़ार से डेढ़ करोड़",
+      "generatedAt": "2026-09-28T19:47:03.508Z",
+      "youtubeId": "N7SgJjARd3A",
+      "youtubeUrl": "https://www.youtube.com/shorts/N7SgJjARd3A",
+      "uploadedAt": "2026-09-28T19:47:31.440Z",
+      "privacyStatus": "public"
+    },
     {
       "serialNumber": 10,
       "title": "बिना इस्तेमाल वाले सब्सक्रिप्शन तुरंत कैंसल करें",
