@@ -3214,8 +3214,12 @@ class SystemTest {
     // (manager.credentials), the shape the walkthrough writes to credentials.json.
     // Passing the CredentialManager itself leaves the engagement studio permanently
     // in fallback mode on installs with no provider environment variables.
-    const savedEnv = process.env.OPENAI_API_KEY;
-    delete process.env.OPENAI_API_KEY;
+    const envKeys = ['OPENAI_API_KEY', 'GEMINI_API_KEY', 'OPENROUTER_API_KEY', 'MOONSHOT_API_KEY', 'MIMO_API_KEY', 'GLM_API_KEY'];
+    const savedEnvs = {};
+    for (const key of envKeys) {
+      savedEnvs[key] = process.env[key];
+      delete process.env[key];
+    }
     try {
       const configured = new AITextService({
         aiProvider: { provider: 'openai', apiKey: 'test-key', model: 'gpt-5.6' }
@@ -3231,8 +3235,10 @@ class SystemTest {
         throw new Error('A CredentialManager-shaped argument must not look configured; index.js has to unwrap it');
       }
     } finally {
-      if (savedEnv === undefined) delete process.env.OPENAI_API_KEY;
-      else process.env.OPENAI_API_KEY = savedEnv;
+      for (const key of envKeys) {
+        if (savedEnvs[key] === undefined) delete process.env[key];
+        else process.env[key] = savedEnvs[key];
+      }
     }
   }
 

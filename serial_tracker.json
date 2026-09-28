@@ -1,0 +1,51 @@
+{
+  "currentSerial": 10,
+  "totalGenerated": 9,
+  "history": [
+    {
+      "serialNumber": 9,
+      "title": "हर छोटे खर्चे को ट्रैक करने की ताकत",
+      "generatedAt": "2026-09-28T09:45:06.506Z"
+    },
+    {
+      "serialNumber": 8,
+      "title": "24 घंटे का नियम: ऑनलाइन शॉपिंग से बचें",
+      "generatedAt": "2026-09-28T05:30:39.974Z"
+    },
+    {
+      "serialNumber": 7,
+      "title": "सैलरी बढ़ते ही खर्चे बढ़ाने की गलती मत करो",
+      "generatedAt": "2026-09-28T05:27:53.123Z"
+    },
+    {
+      "serialNumber": 6,
+      "title": "जीरो बेस्ड बजट: हर रुपये का हिसाब",
+      "generatedAt": "2026-09-28T04:09:25.231Z"
+    },
+    {
+      "serialNumber": 5,
+      "title": "खर्च करने से पहले खुद को पेमेंट करो",
+      "generatedAt": "2026-09-28T03:32:51.402Z"
+    },
+    {
+      "serialNumber": 4,
+      "title": "कार खरीदने का 20-4-10 फॉर्मूला",
+      "generatedAt": "2026-09-27T09:04:37.043Z"
+    },
+    {
+      "serialNumber": 3,
+      "title": "वारेन बफेट का नियम: कभी पैसा मत गंवाओ",
+      "generatedAt": "2026-09-27T08:38:05.557Z"
+    },
+    {
+      "serialNumber": 2,
+      "title": "SIP में कम्पाउंडिंग: 5 हज़ार से डेढ़ करोड़",
+      "generatedAt": "2026-09-27T08:33:16.287Z"
+    },
+    {
+      "serialNumber": 1,
+      "title": "सैलरी बचाने का 50-30-20 फॉर्मूला",
+      "generatedAt": "2026-09-27T08:18:58.240Z"
+    }
+  ]
+}

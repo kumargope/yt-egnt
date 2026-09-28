@@ -10,6 +10,7 @@ yarn-error.log*
 .env.production
 config/credentials.json
 config/tokens.json
+client_secret*.json
 config/*.key
 config/*.pem
 
@@ -58,10 +59,20 @@ build/
 # YouTube specific
 *.mp4
 *.mp3
+!assets/audio/*.mp3
 *.wav
 *.webm
 *.mkv
 *.avi
+
+# Temp Finance Folders
+temp_finance_work/
+temp_frames/
+temp_hook_test/
+temp_test_sync/
+scratch_*.js
+output_videos/*.mp4
+output_videos/*.jpg
 
 # Image files (except examples)
 *.jpg
