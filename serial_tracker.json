@@ -1,7 +1,16 @@
 {
-  "currentSerial": 12,
-  "totalGenerated": 11,
+  "currentSerial": 13,
+  "totalGenerated": 12,
   "history": [
+    {
+      "serialNumber": 12,
+      "title": "इंडेक्स फंड: बिना रिस्क टॉप 50 कंपनियों में निवेश",
+      "generatedAt": "2026-09-29T18:12:10.436Z",
+      "youtubeId": "1hub25w59fE",
+      "youtubeUrl": "https://www.youtube.com/shorts/1hub25w59fE",
+      "uploadedAt": "2026-09-29T18:12:35.274Z",
+      "privacyStatus": "public"
+    },
     {
       "serialNumber": 11,
       "title": "SIP में कम्पाउंडिंग: 5 हज़ार से डेढ़ करोड़",
