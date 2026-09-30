@@ -1,7 +1,16 @@
 {
-  "currentSerial": 13,
-  "totalGenerated": 12,
+  "currentSerial": 14,
+  "totalGenerated": 13,
   "history": [
+    {
+      "serialNumber": 13,
+      "title": "स्टेप-अप SIP: हर साल 10% निवेश बढ़ाओ",
+      "generatedAt": "2026-09-30T18:03:58.227Z",
+      "youtubeId": "R5XkrN8FXXI",
+      "youtubeUrl": "https://www.youtube.com/shorts/R5XkrN8FXXI",
+      "uploadedAt": "2026-09-30T18:04:24.628Z",
+      "privacyStatus": "public"
+    },
     {
       "serialNumber": 12,
       "title": "इंडेक्स फंड: बिना रिस्क टॉप 50 कंपनियों में निवेश",
