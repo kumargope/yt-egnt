@@ -1,7 +1,16 @@
 {
-  "currentSerial": 14,
-  "totalGenerated": 13,
+  "currentSerial": 15,
+  "totalGenerated": 14,
   "history": [
+    {
+      "serialNumber": 14,
+      "title": "FD vs SIP: 10 साल में 7 लाख का अंतर",
+      "generatedAt": "2026-10-01T18:30:44.702Z",
+      "youtubeId": "WXU34LH6_tk",
+      "youtubeUrl": "https://www.youtube.com/shorts/WXU34LH6_tk",
+      "uploadedAt": "2026-10-01T18:31:12.354Z",
+      "privacyStatus": "public"
+    },
     {
       "serialNumber": 13,
       "title": "स्टेप-अप SIP: हर साल 10% निवेश बढ़ाओ",
