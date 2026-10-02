@@ -1,7 +1,16 @@
 {
-  "currentSerial": 15,
-  "totalGenerated": 14,
+  "currentSerial": 16,
+  "totalGenerated": 15,
   "history": [
+    {
+      "serialNumber": 15,
+      "title": "स्मॉलकैप vs लार्जकैप: सही फंड कैसे चुनें?",
+      "generatedAt": "2026-10-02T17:58:04.271Z",
+      "youtubeId": "8EGs4bCZ_a0",
+      "youtubeUrl": "https://www.youtube.com/shorts/8EGs4bCZ_a0",
+      "uploadedAt": "2026-10-02T17:58:32.777Z",
+      "privacyStatus": "public"
+    },
     {
       "serialNumber": 14,
       "title": "FD vs SIP: 10 साल में 7 लाख का अंतर",
