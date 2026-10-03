@@ -1,7 +1,16 @@
 {
-  "currentSerial": 16,
-  "totalGenerated": 15,
+  "currentSerial": 17,
+  "totalGenerated": 16,
   "history": [
+    {
+      "serialNumber": 16,
+      "title": "म्यूचुअल फंड में डायरेक्ट प्लान का बड़ा फायदा",
+      "generatedAt": "2026-10-03T16:34:41.710Z",
+      "youtubeId": "pOc4BYg4rMU",
+      "youtubeUrl": "https://www.youtube.com/shorts/pOc4BYg4rMU",
+      "uploadedAt": "2026-10-03T16:35:07.116Z",
+      "privacyStatus": "public"
+    },
     {
       "serialNumber": 15,
       "title": "स्मॉलकैप vs लार्जकैप: सही फंड कैसे चुनें?",
