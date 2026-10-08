@@ -1,7 +1,12 @@
 {
-  "currentSerial": 20,
-  "totalGenerated": 19,
+  "currentSerial": 21,
+  "totalGenerated": 20,
   "history": [
+    {
+      "serialNumber": 20,
+      "title": "महीने की किस तारीख को SIP करनी चाहिए?",
+      "generatedAt": "2026-10-08T18:57:25.471Z"
+    },
     {
       "serialNumber": 19,
       "title": "फ्लेक्सी कैप फंड: हर मार्केट में ऑल-राउंडर",
