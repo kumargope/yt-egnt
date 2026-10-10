@@ -1,7 +1,12 @@
 {
-  "currentSerial": 22,
-  "totalGenerated": 21,
+  "currentSerial": 23,
+  "totalGenerated": 22,
   "history": [
+    {
+      "serialNumber": 22,
+      "title": "होम लोन हैक: 20 साल का लोन 10 साल में खत्म",
+      "generatedAt": "2026-10-10T17:25:53.466Z"
+    },
     {
       "serialNumber": 21,
       "title": "कार खरीदने का 20-4-10 फॉर्मूला",
