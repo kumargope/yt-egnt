@@ -1,7 +1,12 @@
 {
-  "currentSerial": 24,
-  "totalGenerated": 23,
+  "currentSerial": 25,
+  "totalGenerated": 24,
   "history": [
+    {
+      "serialNumber": 24,
+      "title": "शॉपिंग में फिजूलखर्ची रोकने का 30-दिन रूल (भाग 24)",
+      "generatedAt": "2026-11-03T19:41:47.226Z"
+    },
     {
       "serialNumber": 23,
       "title": "सैलरी बचाने का 50-30-20 फॉर्मूला (भाग 23)",
