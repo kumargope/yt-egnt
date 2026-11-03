@@ -64,14 +64,25 @@ async function generateSceneAudio(text, sceneIndex, sessionFolder, speedRate = '
     effectiveRate = '+16%'; // Balanced, energetic yet natural and clear
   }
 
-  const tts = new MsEdgeTTS();
-  await tts.setMetadata(voice, OUTPUT_FORMAT.AUDIO_24KHZ_48KBITRATE_MONO_MP3);
-  const res = await tts.toFile(sceneAudioDir, cleanText, { rate: effectiveRate });
-  await tts.close();
+  let lastError;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const tts = new MsEdgeTTS();
+      await tts.setMetadata(voice, OUTPUT_FORMAT.AUDIO_24KHZ_48KBITRATE_MONO_MP3);
+      const res = await tts.toFile(sceneAudioDir, cleanText, { rate: effectiveRate });
+      await tts.close();
 
-  const finalAudioPath = path.join(sessionFolder, `scene_${sceneIndex}.mp3`);
-  fs.copyFileSync(res.audioFilePath, finalAudioPath);
-  return finalAudioPath;
+      const finalAudioPath = path.join(sessionFolder, `scene_${sceneIndex}.mp3`);
+      fs.copyFileSync(res.audioFilePath, finalAudioPath);
+      return finalAudioPath;
+    } catch (err) {
+      lastError = err;
+      console.warn(`[FinanceVideo] Scene ${sceneIndex + 1} TTS attempt ${attempt}/3 failed: ${err.message}. Retrying in 2s...`);
+      await new Promise(r => setTimeout(r, 2000));
+    }
+  }
+
+  throw lastError;
 }
 
 /**
