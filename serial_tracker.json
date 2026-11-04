@@ -1,7 +1,12 @@
 {
-  "currentSerial": 25,
-  "totalGenerated": 24,
+  "currentSerial": 26,
+  "totalGenerated": 25,
   "history": [
+    {
+      "serialNumber": 25,
+      "title": "इमरजेंसी फंड: आपका आर्थिक सुरक्षा कवच (भाग 25)",
+      "generatedAt": "2026-11-04T19:57:26.738Z"
+    },
     {
       "serialNumber": 24,
       "title": "शॉपिंग में फिजूलखर्ची रोकने का 30-दिन रूल (भाग 24)",
