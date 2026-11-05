@@ -1,7 +1,12 @@
 {
-  "currentSerial": 26,
-  "totalGenerated": 25,
+  "currentSerial": 27,
+  "totalGenerated": 26,
   "history": [
+    {
+      "serialNumber": 26,
+      "title": "कैश एनवेलप बजटिंग से पैसे बचाएं (भाग 26)",
+      "generatedAt": "2026-11-05T20:11:02.470Z"
+    },
     {
       "serialNumber": 25,
       "title": "इमरजेंसी फंड: आपका आर्थिक सुरक्षा कवच (भाग 25)",
