@@ -1,7 +1,12 @@
 {
-  "currentSerial": 27,
-  "totalGenerated": 26,
+  "currentSerial": 28,
+  "totalGenerated": 27,
   "history": [
+    {
+      "serialNumber": 27,
+      "title": "खर्च करने से पहले खुद को पेमेंट करो (भाग 27)",
+      "generatedAt": "2026-11-06T19:37:27.031Z"
+    },
     {
       "serialNumber": 26,
       "title": "कैश एनवेलप बजटिंग से पैसे बचाएं (भाग 26)",
