@@ -1,7 +1,12 @@
 {
-  "currentSerial": 28,
-  "totalGenerated": 27,
+  "currentSerial": 29,
+  "totalGenerated": 28,
   "history": [
+    {
+      "serialNumber": 28,
+      "title": "जीरो बेस्ड बजट: हर रुपये का हिसाब (भाग 28)",
+      "generatedAt": "2026-11-07T17:48:54.984Z"
+    },
     {
       "serialNumber": 27,
       "title": "खर्च करने से पहले खुद को पेमेंट करो (भाग 27)",
