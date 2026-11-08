@@ -1,7 +1,12 @@
 {
-  "currentSerial": 29,
-  "totalGenerated": 28,
+  "currentSerial": 30,
+  "totalGenerated": 29,
   "history": [
+    {
+      "serialNumber": 29,
+      "title": "सैलरी बढ़ते ही खर्चे बढ़ाने की गलती मत करो (भाग 29)",
+      "generatedAt": "2026-11-08T18:00:16.745Z"
+    },
     {
       "serialNumber": 28,
       "title": "जीरो बेस्ड बजट: हर रुपये का हिसाब (भाग 28)",
