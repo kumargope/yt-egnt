@@ -1,7 +1,12 @@
 {
-  "currentSerial": 30,
-  "totalGenerated": 29,
+  "currentSerial": 31,
+  "totalGenerated": 30,
   "history": [
+    {
+      "serialNumber": 30,
+      "title": "24 घंटे का नियम: ऑनलाइन शॉपिंग से बचें (भाग 30)",
+      "generatedAt": "2026-11-09T22:36:46.681Z"
+    },
     {
       "serialNumber": 29,
       "title": "सैलरी बढ़ते ही खर्चे बढ़ाने की गलती मत करो (भाग 29)",
