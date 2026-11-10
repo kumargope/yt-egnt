@@ -1,7 +1,12 @@
 {
-  "currentSerial": 31,
-  "totalGenerated": 30,
+  "currentSerial": 32,
+  "totalGenerated": 31,
   "history": [
+    {
+      "serialNumber": 31,
+      "title": "हर छोटे खर्चे को ट्रैक करने की ताकत (भाग 31)",
+      "generatedAt": "2026-11-10T19:54:36.948Z"
+    },
     {
       "serialNumber": 30,
       "title": "24 घंटे का नियम: ऑनलाइन शॉपिंग से बचें (भाग 30)",
