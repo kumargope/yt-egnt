@@ -1,7 +1,12 @@
 {
-  "currentSerial": 32,
-  "totalGenerated": 31,
+  "currentSerial": 33,
+  "totalGenerated": 32,
   "history": [
+    {
+      "serialNumber": 32,
+      "title": "बिना इस्तेमाल वाले सब्सक्रिप्शन तुरंत कैंसल करें (भाग 32)",
+      "generatedAt": "2026-11-11T19:46:48.581Z"
+    },
     {
       "serialNumber": 31,
       "title": "हर छोटे खर्चे को ट्रैक करने की ताकत (भाग 31)",
