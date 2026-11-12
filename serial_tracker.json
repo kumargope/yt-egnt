@@ -1,7 +1,12 @@
 {
-  "currentSerial": 33,
-  "totalGenerated": 32,
+  "currentSerial": 34,
+  "totalGenerated": 33,
   "history": [
+    {
+      "serialNumber": 33,
+      "title": "SIP में कम्पाउंडिंग: 5 हज़ार से डेढ़ करोड़ (भाग 33)",
+      "generatedAt": "2026-11-12T20:15:22.715Z"
+    },
     {
       "serialNumber": 32,
       "title": "बिना इस्तेमाल वाले सब्सक्रिप्शन तुरंत कैंसल करें (भाग 32)",
