@@ -1,7 +1,12 @@
 {
-  "currentSerial": 34,
-  "totalGenerated": 33,
+  "currentSerial": 35,
+  "totalGenerated": 34,
   "history": [
+    {
+      "serialNumber": 34,
+      "title": "इंडेक्स फंड: बिना रिस्क टॉप 50 कंपनियों में निवेश (भाग 34)",
+      "generatedAt": "2026-11-13T19:56:07.764Z"
+    },
     {
       "serialNumber": 33,
       "title": "SIP में कम्पाउंडिंग: 5 हज़ार से डेढ़ करोड़ (भाग 33)",
