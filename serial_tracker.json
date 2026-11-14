@@ -1,7 +1,12 @@
 {
-  "currentSerial": 35,
-  "totalGenerated": 34,
+  "currentSerial": 36,
+  "totalGenerated": 35,
   "history": [
+    {
+      "serialNumber": 35,
+      "title": "स्टेप-अप SIP: हर साल 10% निवेश बढ़ाओ (भाग 35)",
+      "generatedAt": "2026-11-14T18:23:05.597Z"
+    },
     {
       "serialNumber": 34,
       "title": "इंडेक्स फंड: बिना रिस्क टॉप 50 कंपनियों में निवेश (भाग 34)",
