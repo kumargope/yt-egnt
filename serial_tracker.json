@@ -1,7 +1,12 @@
 {
-  "currentSerial": 36,
-  "totalGenerated": 35,
+  "currentSerial": 37,
+  "totalGenerated": 36,
   "history": [
+    {
+      "serialNumber": 36,
+      "title": "FD vs SIP: 10 साल में 7 लाख का अंतर (भाग 36)",
+      "generatedAt": "2026-11-15T19:00:57.760Z"
+    },
     {
       "serialNumber": 35,
       "title": "स्टेप-अप SIP: हर साल 10% निवेश बढ़ाओ (भाग 35)",
