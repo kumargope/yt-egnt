@@ -1,7 +1,12 @@
 {
-  "currentSerial": 40,
-  "totalGenerated": 39,
+  "currentSerial": 41,
+  "totalGenerated": 40,
   "history": [
+    {
+      "serialNumber": 40,
+      "title": "ELSS फंड: टैक्स भी बचाएं और वेल्थ भी बनाएं (भाग 40)",
+      "generatedAt": "2026-11-19T20:52:41.977Z"
+    },
     {
       "serialNumber": 39,
       "title": "मार्केट क्रैश में कभी SIP बंद मत करो (भाग 39)",
