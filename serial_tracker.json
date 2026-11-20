@@ -1,7 +1,12 @@
 {
-  "currentSerial": 41,
-  "totalGenerated": 40,
+  "currentSerial": 42,
+  "totalGenerated": 41,
   "history": [
+    {
+      "serialNumber": 41,
+      "title": "फ्लेक्सी कैप फंड: हर मार्केट में ऑल-राउंडर (भाग 41)",
+      "generatedAt": "2026-11-20T20:38:02.278Z"
+    },
     {
       "serialNumber": 40,
       "title": "ELSS फंड: टैक्स भी बचाएं और वेल्थ भी बनाएं (भाग 40)",
