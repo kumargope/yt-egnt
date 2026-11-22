@@ -1,7 +1,12 @@
 {
-  "currentSerial": 43,
-  "totalGenerated": 42,
+  "currentSerial": 44,
+  "totalGenerated": 43,
   "history": [
+    {
+      "serialNumber": 43,
+      "title": "कार खरीदने का 20-4-10 फॉर्मूला (भाग 43)",
+      "generatedAt": "2026-11-22T19:54:25.345Z"
+    },
     {
       "serialNumber": 42,
       "title": "महीने की किस तारीख को SIP करनी चाहिए? (भाग 42)",
