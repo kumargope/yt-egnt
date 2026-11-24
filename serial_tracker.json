@@ -1,7 +1,12 @@
 {
-  "currentSerial": 45,
-  "totalGenerated": 44,
+  "currentSerial": 46,
+  "totalGenerated": 45,
   "history": [
+    {
+      "serialNumber": 45,
+      "title": "सैलरी बचाने का 50-30-20 फॉर्मूला (भाग 45)",
+      "generatedAt": "2026-11-24T22:39:57.610Z"
+    },
     {
       "serialNumber": 44,
       "title": "होम लोन हैक: 20 साल का लोन 10 साल में खत्म (भाग 44)",
